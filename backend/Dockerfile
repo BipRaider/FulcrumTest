@@ -1,6 +1,6 @@
 # FROM mhart/alpine-node:14 as base
 
-# WORKDIR /usr/src/app
+# WORKDIR /usr/src/backend
 
 # COPY package*.json ./
 
@@ -21,7 +21,7 @@
 
 FROM mhart/alpine-node:14 as base
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/backend
 
 COPY package*.json ./
 
