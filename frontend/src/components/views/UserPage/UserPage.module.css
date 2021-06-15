@@ -1,0 +1,40 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768.1px) and (max-width: 1279.9px) {
+  .container {
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    min-height: 768px;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}

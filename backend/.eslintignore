@@ -1,0 +1,8 @@
+/node_modules/*
+
+# data definition files
+**/*.d.ts
+
+dist/*
+
+/src/interface
